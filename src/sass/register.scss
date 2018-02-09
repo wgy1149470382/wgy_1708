@@ -1,0 +1,50 @@
+$headheight:30px;
+$fs12:12px;
+$fColor:#999999;
+$webColor:#64a131;
+
+
+#section{border-bottom:1px solid #f1f1f1;box-shadow: 0 2px 8px rgba(230,230,230,0.75);width: 100%;padding: 20px 0 23px 0;
+    h3{
+    padding:4px 0 0 4px;
+        a{
+        display: block;
+        background: url('../img/logo.jpg');
+        width: 295px;
+        height: 73px;
+        }
+    }
+    
+}   
+#register{padding-top:50px;margin:0 auto;width:1000px;
+    h4{font-size:20px;color:$fColor;padding:15px 0;border-bottom:1px solid #ccc;}
+    .reg_left{margin:36px 0 46px 0;position:relative;
+        .login_1{position:absolute;left:175px;bottom:21px;
+            a{padding:12px 33px;height:48px;border-radius: 4px;color: $webColor;text-align: center;line-height:48px;border:1px solid $webColor;}
+        }
+    }
+    .reg_right{padding-left:60px;margin-top:111px;
+        li{margin-bottom:26px;
+        
+        .hint{float:left;width:96px;height:40px;line-height:40px;text-align:right;color:$fColor;}
+        .all{border:1px solid #ccc;margin-left:42px;width:276px;height:28px;}
+        input{padding:6px 12px;}
+        .check1{width:300px;padding-left:138px;
+            p{padding-left:74px;display:inline-block;
+                a{color:$fColor;font-size:16px;}
+            }
+        }
+        .check2{width:300px;padding-left:138px;
+            button{&:nth-child(1){margin-right:5px;}
+                a{display: block;width: 143px;height: 38px;line-height: 38px;text-align: center;font-size:18px;}
+            }
+            
+            button:nth-child(1) a{background-color: #64a131;padding: 0px;color:#fff;border-radius: 4px;}
+            button:nth-child(2) a{border: 1px solid #64a131;background-color: #f5ffed;color: #7bae55;border-radius: 6px;}
+        }   
+        }
+
+    }
+}
+
+

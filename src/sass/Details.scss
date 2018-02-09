@@ -1,0 +1,80 @@
+$headheight:30px;
+$fs12:12px;
+$fColor:#999999;
+$webColor:#64a131;
+
+#section{border-bottom: 1px solid #f1f1f1;box-shadow: 0 2px 8px rgba(230, 230, 230, 0.75);}
+
+#Message{width: 1290px;padding-top: 50px;margin: 0 auto;
+    .Info{margin-bottom: 20px;
+        .home>a{color: $webColor;font-size:14px;}
+        .kind{color: $webColor;font-size:14px;}
+        .a_name{font-size:14px;}
+    }
+    .focus{width: 700px;height: 560px;position: relative;overflow: hidden;
+        .focus_l{float: left;width: 140px;height: 560px;
+            li{width: 138px;height: 138px;margin-bottom: 2px;position: relative;cursor:pointer;
+                img{width:138px;height:138px;}
+            }
+        }
+        .focus_r{float: left;width: 560px;height: 560px;position: relative;cursor:pointer;
+            img{width: 560px;height: 560px;}
+        }
+    }
+    .sinfo{padding-left: 28px;width: 552px;padding-top: 20px;float: left;
+        .sb{border-bottom:1px solid #dddddd;}
+        .hh{color: #999999;width: 60px;float:left;}
+        h3{color: #555555;line-height: 40px;width: 100%;overflow: hidden;text-overflow: ellipsis;font-size: 24px;}
+        p{height: 48px;text-overflow: ellipsis;overflow: hidden;font-size: 16px;line-height: 48px;color: #999;}
+        .name{height:88px;width: 532px;
+            
+        }
+        .price_info{position: relative;
+        .money{position: relative;width: 552px;height: 50px;padding-left: 10px;margin-bottom: 20px;margin-right: 20px;background:skyblue;padding-top:25px;   
+        .bmoney{width: 124px;font: 24;color: #64a131;font-weight: bold;float:left;}
+        }
+    }
+        .guige{margin-bottom: 22px;padding-left: 10px;
+            .bguige{background-color: #64a131;color: #ffffff;float:left;}
+        }
+        .send{position: relative;z-index: 10;margin-bottom: 21px;padding-left: 10px;
+        }
+        .number{position: relative;margin-bottom: 30px;padding-left: 10px;z-index: 1;  
+        .num_qty{height: 22px;border: 1px solid #dddddd;border-radius: 1px;float:left;
+            .sub{width: 28px;height: 22px;background-color: #eeeeee;color: #a6a6a6;text-align: center;line-height: 22px;font-size: 14;}
+            .sad{font-size: 14px;width: 35px;height: 22px;border: 0px;text-align: center;line-height: 24px;}
+            .add{width: 28px;height: 22px;background-color: #eeeeee;color: #a6a6a6;text-align: center;line-height: 22px;font-size: 14px;}
+        } 
+    }  
+        .buy{margin-bottom: 23px;
+            .buy_l{margin-right: 10px;margin-left: 70px;
+                a{display: block;width: 140px;height: 16px;font-size: 16px;text-align: center;line-height: 16px;color: #7daf57;background: #f5ffed;border: 1px solid #64a131;border-radius: 4px;padding: 10px 16px;}
+            }
+            .buy_r a{display:block;width: 140px;height: 18px;font-size: 16px;text-align: center;line-height: 18px;border-radius: 4px;color: #eff4ec;background: #64a131;padding: 10px 16px;}
+        }   
+        .way{width: 270px;margin-bottom: 10px;margin-top: 26px;
+        h5{font-size: 14px;line-height: 20px;margin: 0px;margin-right: 20px;color: #999;float:left;}
+        span{width: 70%;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;color: #555;font-size: 14px;float:left;}
+    }
+    
+    }
+        
+}
+.asses{margin-top:68px;
+    .sasses{width:1002px;}
+    .part{width: 1002px;border: 1px solid #ccc;
+        .head_part{width: 1000px;background-color: #f1f1f1;top: 0px;position: static;
+            span{color: #555555;height: 39px;padding: 0 38px;text-align: center;line-height: 39px;cursor: pointer;border-right: 1px solid #ccc;margin-top: -1px;font: 16px;}
+            span.active{height: 39px;border-top: 3px solid #64a131;padding: 0 36px;background-color: #ffffff;text-align: center;line-height: 36px;}
+            a{display: block;position: relative;width: 172px;height: 38px;font-size: 16px;text-align: center;line-height: 38px;border-radius: 0px;background: #64a131;text-decoration: none;border-color: #64a131;float:right;color: #fff;}
+        }
+    }
+    .dyn{
+        dl{border-bottom: 1px solid #d8d8d8;font-size: 14px;line-height: 17px;width: 100%;font-weight: lighter;background: #f7f7f7;
+            dt{width: 86px;text-align: left;padding: 9px 12px;float:left;}
+            dd{border-left: 1px solid #d8d8d8;padding: 9px 12px;float:left;font-size: 14px}
+        }
+    }
+    img{width:100%;}
+}           
+        

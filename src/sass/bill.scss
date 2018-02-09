@@ -1,0 +1,17 @@
+#cart{width: 1000px;margin: 0 auto;
+    .mycar{padding-left: 22px;height: 25px;padding-top:50px;
+        h3{float:left;font-size: 20px;color: #555555;margin-left: 14px;line-height: 27px;}
+        a{font-size: 14px;color: #64a131;padding-top: 10px;float:right;}
+    }
+    .carmain{margin-top: 14px;
+        .car_top{height: 50px;line-height: 50px;padding-left: 14px;border: 1px solid #ccc;background-color: #f1f1f1;color: #999999;
+            span:nth-child(1){margin-left: 96px;}  
+            span:nth-child(2){margin-left: 245px;}
+            span:nth-child(3){margin-left: 75px;}  
+            span:nth-child(4){margin-left: 61px;}
+            span:nth-child(5){margin-left: 93px;}  
+            span:nth-child(6){margin-left: 88px;}
+        }
+        .car_bottom{border: 1px solid #ccc;border-top: none;border-bottom: none;}
+    }
+}   

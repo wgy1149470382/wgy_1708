@@ -1,0 +1,170 @@
+#register .log_right {
+  padding-left: 60px;
+  margin-top: 36px;
+}
+
+#register .log_right li {
+  margin-bottom: 26px;
+  position: relative;
+}
+
+#register .log_right li .hint {
+  float: left;
+  width: 96px;
+  height: 40px;
+  line-height: 40px;
+  text-align: right;
+  color: #999999;
+}
+
+#register .log_right li .all {
+  border: 1px solid #ccc;
+  margin-left: 42px;
+  width: 276px;
+  height: 28px;
+}
+
+#register .log_right li .all_code {
+  border: 1px solid #ccc;
+  margin-left: 42px;
+  width: 248px;
+  height: 28px;
+}
+
+#register .log_right li input {
+  padding: 6px 12px;
+}
+
+#register .log_right li .tf {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  right: -36px;
+  top: 10px;
+  display: none;
+}
+
+#register .log_right li .code {
+  position: absolute;
+  width: 115px;
+  height: 38px;
+  right: 28px;
+  top: 2px;
+  line-height: 38px;
+  text-align: center;
+}
+
+#register .log_right li .refresh {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url("../img/refresh.png");
+  position: absolute;
+  right: 0;
+  top: 9px;
+}
+
+#register .log_right li .phone_code {
+  position: absolute;
+  width: 98px;
+  height: 38px;
+  font-size: 14px;
+  right: 0;
+  top: 2px;
+  line-height: 38px;
+  text-align: center;
+  z-index: 1000;
+}
+
+#register .log_right li .check2 {
+  width: 300px;
+  padding-left: 138px;
+}
+
+#register .log_right li .check2 button:nth-child(1) {
+  margin-right: 5px;
+}
+
+#register .log_right li .check2 button a {
+  display: block;
+  width: 143px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#register .log_right li .check2 button:nth-child(1) a {
+  background-color: #64a131;
+  padding: 0px;
+  color: #fff;
+  border-radius: 4px;
+}
+
+#register .log_right li .check2 button:nth-child(2) a {
+  border: 1px solid #64a131;
+  background-color: #f5ffed;
+  color: #7bae55;
+  border-radius: 6px;
+}
+
+.mask {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.36);
+  z-index: 999;
+  opacity: 1;
+  display: none;
+}
+
+#popover {
+  width: 344px;
+  height: 132px;
+  padding: 8px;
+  position: fixed;
+  z-index: 1000;
+  background: #464542;
+  display: none;
+}
+
+#popover h4 {
+  position: relative;
+  height: 40px;
+  padding: 0 15px;
+  background: #eaeaea;
+  margin: 0;
+  font-size: 16px;
+  line-height: 40px;
+  color: #555;
+}
+
+#popover h4 .close {
+  position: absolute;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background: url("../img/close.png");
+  top: 10px;
+}
+
+#popover .pover_cont {
+  padding: 30px 20px 20px 20px;
+  background: #fff;
+}
+
+#popover .pover_cont span:nth-child(1) {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url("../img/i.png");
+  float: left;
+}
+
+#popover .pover_cont span:nth-child(2) {
+  margin: 6px 0 6px 10px;
+  width: 260px;
+  float: left;
+}
